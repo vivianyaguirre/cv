@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="vimport" content="width=device-width, intial-scale=1.8">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <title>Vivian's Contact Webpage</title>
+    </head>
+    <body>
+        <nav>
+            <p> Vivian Aguirre</p>
+            <p><a href="index.html">About Vivian Aguirre</a></p>
+        </nav>
+        <section>
+            <h1>Contact Vivian</h1>
+            <p> 85 North Avenue &#9679; Athens, GA &#9679; 770.940.4294 &#9679; vivian.aguirre@uga.edu </p>
+        </section>
+        <hr>
+        <div class ="one-col">
+            <form method="POST" action="https://formsubmit.co/vivian.aguirre@uga.edu">
+                Name: <input type="text" name="name" placeholder="Name" required>
+                Email: <input type="email" id="email" name="email" placeholder="Email" required>
+                Message: <textarea id="message" name="message" rows="6" cols="40"></textarea>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/cv/thankyou.html">
+                <input type="submit" value="Submit">
+                
+            </form>
+        </div>
+
+        <footer>&#169;
+            <a href="index.html">Vivian Aguirre</a> &#9679;
+
+            <a href="https://www.linkedin.com/in/vivianaguirre/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        
+        </footer>
+
+    </body>
+</html>
