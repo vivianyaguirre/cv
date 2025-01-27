@@ -1,0 +1,257 @@
+/* General Styles */
+body {
+    margin: 0; 
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    background-color: #e0e0e0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+nav p, nav a {
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+nav a:hover {
+    background-color: #888888;
+
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #4d4d4d;
+    color: #f5f5f5;
+    padding: 10px 0;
+
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #b3b3b3;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+/* Splash Section */
+.splash {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+
+}
+
+.splash h1 {
+    font-family: 'Merriweather', serif;
+    color: #4d4d4d;
+    font-weight: bold; 
+    font-size: 32px;
+}
+
+.splash img {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+.splash p {
+    font-size: 18px;
+    color: #666;
+    font-family: 'Nunito', sans-serif;
+}
+
+.splash p.address {
+    font-size: 18px; 
+    color: #444; 
+    font-weight: bold; 
+    font-family: 'Roboto Slab', serif;
+}
+
+.splash p.tagline {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #333; 
+    font-style: italic; 
+}
+
+/* Horizontal Rules */
+hr {
+    border: 2px solid #d6d6d6;
+    margin: 20px 0;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* link styles */
+section a {
+    font-family: 'Poppins', sans-serif;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+section a:hover {
+    text-decoration: underline;
+    color: #dd6d6d;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #333;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+dl dt{
+    font-weight: bold;
+    color: #4d4d4d;
+}
+dl dd{
+    margin-left: 10px;
+    color: #666;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    align-self: center;
+    display: inline-block;
+    max-width: 200px;
+    border-radius: 10px;
+    
+}
+
+
+.card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #4d4d4d;
+    margin: 10px 0;
+}
+
+
+.card .img-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    outline: none;
+    border-color: #4d4d4d;
+    box-shadow: 0px 0px 5px rgba(77, 77, 77, 0.5);
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #4d4d4d;
+    box-shadow: 0px 0px 5px rgba(77, 77, 77, 0.5);
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4d4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover { 
+    background-color: #333;
+}

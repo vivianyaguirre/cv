@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <meta name="vimport" content="width=device-width, intial-scale=1.8">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family="Times New Roman|Georgia|Trirong>
+        <link rel="stylesheet" href="css/style.css">
+        
         <title>Vivian Aguirre's CV</title>
 
     </head>
@@ -14,20 +17,22 @@
             <p><a href="contact.html">Contact Vivian</a></p>
         </nav>
         <section>
-            <h1>Vivian Aguirre</h1>
-            <img src="images/headshot.jpg" alt="headshot" style="width: 190px; height: 200px;"/>
-            <p> 85 North Avenue &#9679; Athens, GA &#9679; 770.940.4294 &#9679; vivian.aguirre@uga.edu </p>
-            <p> I am passionate about combining creativity, analytical thinking, and effective communication to 
-                develop innovative, data-driven solutions. I value gaining diverse perspectives and understanding
-                every aspect of a project, enabling me to contribute to initiatives that integrate data analytics
-                with strategic decision-making across departments and successfully implement meaningful changes. 
-                Additionally, I enjoy spending my free time running, working out, listening to music, creating art,
-                traveling and spending time with loved ones.</p>
+            <div class="splash">
+                <h1>Vivian Aguirre</h1>
+                <img src="images/headshot.jpg" alt="headshot" style="width: 190px; height: 200px;"/>
+                <p> 85 North Avenue &#9679; Athens, GA &#9679; 770.940.4294 &#9679; vivian.aguirre@uga.edu </p>
+                <p> I am passionate about combining creativity, analytical thinking, and effective communication to 
+                    develop innovative, data-driven solutions. I value gaining diverse perspectives and understanding
+                    every aspect of a project, enabling me to contribute to initiatives that integrate data analytics
+                    with strategic decision-making across departments and successfully implement meaningful changes. 
+                    Additionally, I enjoy spending my free time running, working out, listening to music, creating art,
+                    traveling and spending time with loved ones.</p>
+            </div>
         </section>
         <hr>
         <section>
             <h2>Education</h2>
-            <p>Universty Of Georgia, Terry College of Business, Bachelor of Management Information Systems with minors 
+            <p>Universty Of Georgia, Terry College of Business, BBA in Management Information Systems with Data Analysis Emphasis, minors 
                 in Computer Science and Design & Media. Relevant Courses: Data Management and Analytics, Data Science I,
                 Interpersonal Communication, Software Development, Business Intelligence, Predictive Modeling and Optimization,
                 Software Development, Web Programming, Business Process Management, Introduction to Typography
@@ -58,20 +63,20 @@
         <section>
             <h2>Leadership and Experience</h2>
             <dl>
-                <dt>Concessions Cashier, Akins Ford Arena</dt>
+                <dt><a href="https://classiccenter.com/414/Akins-Ford-Arena">Concessions Cashier, Akins Ford Arena</a></dt> 
                 <dd>December 2024 - Present</dd>
-                <dt>Vice President, UGA ACM-W Girls.Code()</dt>
+                <dt><a href="https://ugagirlscode.wixsite.com/mysite-1">Vice President, UGA ACM-W Girls.Code()</a></dt>
                 <dd>May 2024 - Present</dd>
-                <dt>Cashier, The Warehouse Shoe Sale Pop-Up</dt>
+                <dt><a href="https://shoeswarehousesale.com">Cashier, The Warehouse Shoe Sale Pop-Up</a></dt>
                 <dd>November 2024</dd>
-                <dt>Host/Expo Manager/Server Assistant</dt>
+                <dt><a href="https://www.delbaratl.com">Host/Expo Manager/Server Assistant, Delbar</a></dt>
                 <dd>May 2023 - August 2024</dd>
-                <dt>Skate Counter Supervisor, The Classic Center</dt>
+                <dt><a href="https://classiccenter.com">Skate Counter Supervisor, The Classic Center</a></dt>
                 <dd>November 2023 - Feburary 2024</dd>
-                <dt>Web Development Chair, UGA ACM-W Girls.Code()</dt>
+                <dt><a href="https://ugagirlscode.wixsite.com/mysite-1">Web Development Chair, UGA ACM-W Girls.Code()</a></dt>
                 <dd>May 2023 - May 2024</dd>
-                <dt>Data Analyst Extern, Forage KPMG UGA</dt>
-                <dd>June 2023</dd>
+                <dt><a href="https://francoisandco.com">Data Analyst Intern, Francois and Company</a></dt>
+                <dd>May 2022 - August 2022</dd>
                 <dt>Math Tutor</dt>
                 <dd>October 2021 - March 2022</dd>
             </dl>
@@ -79,65 +84,62 @@
         </section>
         <section>
             <h2>Projects</h2>
+            <div class ="three-col"></div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="images/amaz-pic.png" alt="Amazon Price Tracker Image 1" />
+                        <img src="images/amaz-pic2.png" alt="Amazon Price Tracker Image 2" />
+                        <img src="images/amaz-pic3.png" alt="Amazon Price Tracker Image 3" />
+                        <img src="images/amaz-pic4.png" alt="Amazon Price Tracker Image 4" />
+                    </div>
+                    <h3>Amazon Price Tracker, Personal Project</h3>
+                    <ul>
+                        <li>Developed a desktop application to track and record Amazon product prices with an intuitive GUI styled after Amazon's branding.</li>
+                        <li>Implemented web scraping using BeautifulSoup and requests to fetch product titles and prices in real time</li>
+                        <li>Enabled multi-product tracking with dynamic creation and management of product-specific CSV files for storing price histories.</li>
+                        <li>Integrated tkinter for an interactive interface, including a TreeView table to display price histories.</li>
+                        <li>Added multi-threaded functionality to support automated periodic price checks (daily, weekly, monthly) without disrupting user interactions.</li>
+                        <li>Leveraged modular design for scalability, enabling future enhancements like price trend visualizations or notification systems.</li>
+                    </ul>
+                  
+                </div>
 
-            <h3>Amazon Price Tracker, Personal Project</h3>
-            <ul>
-                <li>Developed a desktop application to track and record Amazon product prices with an intuitive GUI styled after Amazon's branding.</li>
-                <li>Implemented web scraping using BeautifulSoup and requests to fetch product titles and prices in real time</li>
-                <li>Enabled multi-product tracking with dynamic creation and management of product-specific CSV files for storing price histories.</li>
-                <li>Integrated tkinter for an interactive interface, including a TreeView table to display price histories.</li>
-                <li>Added multi-threaded functionality to support automated periodic price checks (daily, weekly, monthly) without disrupting user interactions.</li>
-                <li>Leveraged modular design for scalability, enabling future enhancements like price trend visualizations or notification systems.</li>
-            </ul>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="images/uni-cv.png" alt="University Research System Image 1" />
+                        <img src="images/uni-cv2.png" alt="University Research System Image 2" />
+                    </div>
+                    <h3>University Research System Database, Data Management and Analytics Team Project</h3>
+                    <ul>
+                        <li>Developed the concept and comprehensive design for a 12-entity data model showcasing expertise in cardinality, modality, and recursive relationships using SQL.</li>
+                        <li>Designed join queries and assisted team members in formulating categorical queries to extract insights from the database.</li>
+                        <li>Presented the model’s structure to stakeholders, explaining entity relationships and operational workflows for clarity.</li>
+                        <li>Utilized Tableau to create query visualizations, enhancing data interpretation and improving presentation quality.</li>
+                    </ul>
+                
+                </div>
 
-            <h3>University Research System Database, Data Management and Analytics Team Project</h3>
-            <ul>
-                <li>Developed the concept and comprehensive design for a 12-entity data model showcasing expertise in cardinality, modality, and recursive relationships using SQL.</li>
-                <li>Designed join queries and assisted team members in formulating categorical queries to extract insights from the database.</li>
-                <li>Presented the model’s structure to stakeholders, explaining entity relationships and operational workflows for clarity.</li>
-                <li>Utilized Tableau to create query visualizations, enhancing data interpretation and improving presentation quality.</li>
-            </ul>
+                <div class="card">
+                    
+                    <div class="img-container">
+                        <img src="images/flight-analysis.png" alt="Predicting Flight Delays Image 1" />
+                    </div>
 
-            <h3>Predicting Flight Delays with Machine Learning, Data Science I Team Project</h3>
-            <ul>
-                <li>Collaborated on a team project to analyze flight delay patterns using Python in Jupyter Notebook, employing machine learning techniques.</li>
-                <li>Independently developed the k-nearest neighbors (KNN) model and evaluated performance metrics, including precision, recall, and accuracy.</li>
-                <li>Contributed to team discussions on dataset distortions and their impact on model reliability, ensuring robust results.</li>
-                <li>Applied visualization and analysis techniques to interpret results and improve predictive accuracy.</li>
-            </ul>
+                     <h3>Predicting Flight Delays with Machine Learning, Data Science I Team Project</h3>
+                    <ul>
+                        <li>Collaborated on a team project to analyze flight delay patterns using Python in Jupyter Notebook, employing machine learning techniques.</li>
+                        <li>Independently developed the k-nearest neighbors (KNN) model and evaluated performance metrics, including precision, recall, and accuracy.</li>
+                        <li>Contributed to team discussions on dataset distortions and their impact on model reliability, ensuring robust results.</li>
+                        <li>Applied visualization and analysis techniques to interpret results and improve predictive accuracy.</li>
+                    </ul>
+                
+                </div>
 
-            <h3>Goldilocks Adventure Game, Personal Project</h3>
-            <ul>
-                <li>Designed and developed a modular text-based adventure game in Python, leveraging object-oriented programming and multiple modules (characters.py, locations.py, interactions.py, game_data.py).</li>
-                <li>Created custom classes for dynamic characters (e.g., Goldilocks, PapaBear) and interactive locations, encapsulating attributes and behaviors for a richer gameplay experience.</li>
-                <li>Implemented modular design principles by separating game logic, interactions, and data into distinct files, ensuring efficient code organization and scalability.</li>
-            </ul>
-
-            <h3>Simple Calculator, Personal Project</h3>
-            <ul>
-                <li>Developed a graphical user interface (GUI) calculator using Python and Tkinter, capable of performing basic arithmetic operations.</li>
-                <li>Integrated error handling to ensure stability, displaying user-friendly error messages for invalid inputs or operations like division by zero.</li>
-                <li>Designed an intuitive and responsive interface with interactive buttons for input, styled with custom fonts and colors.</li>
-                <li>Implemented modular functions for efficient code organization, supporting scalability and readability.</li>
-            </ul>
-
-            <h3>Therapy Journal, Personal Project</h3>
-            <ul>
-                <li>Designed an interactive journaling application using Python to help users identify, express, and process emotions responsibly.</li>
-                <li>Researched professional therapeutic techniques and integrated strategies for emotional regulation, such as guided breathing exercises and reflective prompts.</li>
-                <li>Developed a keyword-based emotion detection system, providing tailored responses and follow-up questions to guide emotional reflection.</li>
-            </ul>
-
-            <h3>Business Plan & Mobile Application Design Document, Management Information Systems Course Project</h3>
-            <ul>
-                <li>Conceptualized and designed DeTab, a mobile app focused on optimizing browser tab organization and enhancing productivity through cross-device synchronization.</li>
-                <li>Conducted business planning and data modeling to define app functionality, user workflows, and operational requirements.</li>
-                <li>Created wireframes and prototypes to visualize app interfaces and user experience. Applied Business Process Modeling principles to streamline workflows and improve system efficiency.</li>
-            </ul>
+            </div>
         </section>
 
         <footer>
-            &#169;<a href="index.html">Vivian Aguirre</a>
+            &#169;<a href="contact.html">Vivian Aguirre</a>
             &#9679;
             <a href="https://www.linkedin.com/in/vivianaguirre/" target="_blank">
                 <i class="fab fa-linkedin" style="font-size: 30px;"></i>
