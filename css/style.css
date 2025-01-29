@@ -2,25 +2,29 @@
 body {
     margin: 0; 
     box-sizing: border-box;
-    background-color: #f5f5f5;
-    font-family: 'Nunito', sans-serif;
+    background-color: #EFE9E1;;
+    font-family: 'Lora', serif;
+    color: #11100F;
+    text-align: center;
+    
 
 }
 
 /* Nav Styles */
 nav {
     display: flex;
-    background-color: #e0e0e0;
+    background-color: #899481;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(17, 16, 15, 0.2);
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 nav p, nav a {
     font-size: 16px;
-    color: #4d4d4d;
+    color: #EFE9E1;
 }
 
 nav a {
@@ -32,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #888888;
+    background-color: #5D1C34;
 
 }
 
@@ -41,21 +45,24 @@ footer {
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-color: #4d4d4d;
-    color: #f5f5f5;
+    background-color: #899481;
+    color: #EFE9E1; 
     padding: 10px 0;
-
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer a {
     text-decoration: none;
     margin: 0 10px;
-    color: #b3b3b3;
+    color: #CDBCAB;
+    font-size: 20px; 
 
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: #A67D44;
+    color: #A67D44;
 
 }
 
@@ -63,15 +70,16 @@ footer a:hover {
 .splash {
     text-align: center;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #CDBCAB;
 
 }
 
 .splash h1 {
-    font-family: 'Merriweather', serif;
-    color: #4d4d4d;
+    font-family: 'EB Garamond', serif;
+    color: #11100F;
     font-weight: bold; 
     font-size: 32px;
+    
 }
 
 .splash img {
@@ -79,114 +87,144 @@ footer a:hover {
     border-radius: 50%;
     margin: 10px auto;
     display: block;
+    width: 190px;
+    height: 200px;
 }
 
 .splash p {
     font-size: 18px;
-    color: #666;
-    font-family: 'Nunito', sans-serif;
+    color:#5D1C34;
+    font-family: 'Lora', serif;
 }
 
 .splash p.address {
     font-size: 18px; 
-    color: #444; 
+    color: #11100F;
     font-weight: bold; 
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lora', serif;
 }
 
 .splash p.tagline {
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
     font-size: 20px;
-    color: #333; 
+    color: #A67D44; 
     font-style: italic; 
 }
 
 /* Horizontal Rules */
 hr {
-    border: 2px solid #d6d6d6;
+    border: 2px solid #A67D44;
     margin: 20px 0;
 }
 
 /* Sections */
 section {
     padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #d6d6d6;
+    background-color: #EFE9E1;
+    border: 1px solid #899481;
     border-radius: 5px;
     margin: 10px auto;
+    text-align: center;
 }
 
 /* Section Headings */
 section h2 {
-    font-family: 'Poppins', sans-serif;
-    color: #333;
+    font-family: 'EB Garamond', serif;
+    color: #11100F;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 
 /* Paragraph Styles */
 section p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #666;
+    color: #5D1C34;
+    
 }
 
 /* link styles */
 section a {
-    font-family: 'Poppins', sans-serif;
-    color: #4d4d4d;
+    font-family: 'Montserrat', sans-serif;
+    color: #11100F;
     text-decoration: none;
 }
 section a:hover {
     text-decoration: underline;
-    color: #dd6d6d;
+    color: #A67D44;
 }
 
 /* List Styles */
 ul {
     list-style-type: square;
     margin-left: 20px;
-    color: #333;
-    font-family: 'Nunito', sans-serif;
+    color: #11100F;
+    font-family: 'Lora', serif;
     font-size: 16px;
+    text-align: left;
+    font-family: 'Lora', serif;
 }
 
 dl {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
-    font-family: 'Nunito', sans-serif;
+    grid-template-columns: 2fr 1fr; 
+    gap: 5px 20px; 
+    font-family: 'EB Garamond', serif;
     font-size: 16px;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #CDBCAB;
+
 }
 
 dl dt{
     font-weight: bold;
-    color: #4d4d4d;
+    color: #11100F;
+    text-align: left;
+    border-bottom: 1px solid #A67D44;
+    padding-bottom: 5px;
+    font-family: 'EB Garamond', serif;
 }
+    
+
 dl dd{
-    margin-left: 10px;
-    color: #666;
+    color: #5D1C34;
+    text-align: right;
+    border-bottom: 1px solid #A67D44; 
+    padding-bottom: 5px;
+    font-family: 'Lora', serif;
 }
+    
+
 
 /* Project Section */
 .three-col {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
-
 }
 
 .card {
-    background-color: #ffffff;
-    border: 1px solid #d6d6d6;
+    background-color: #EFE9E1;
+    border: 1px solid #899481;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: left;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 12px rgba(93, 28, 52, 0.2);
 }
 
 .card img {
@@ -194,25 +232,21 @@ dl dd{
     display: inline-block;
     max-width: 200px;
     border-radius: 10px;
+    max-height: 150px;
     
 }
 
 
+
+
 .card h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
-    color: #4d4d4d;
+    color: #11100F;
     margin: 10px 0;
+    text-align: center;
 }
 
-
-.card .img-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 15px;
-}
 
 
 /* Contact Page Styles */
@@ -227,31 +261,34 @@ dl dd{
 form {
     width: 100%;
     padding: 10px;
-    border: 1px solid #d6d6d6;
+    border: 1px solid #899481;
+    background-color: #EFE9E1;
     border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form input, form textarea {
     outline: none;
-    border-color: #4d4d4d;
+    border-color: #11100F;
     box-shadow: 0px 0px 5px rgba(77, 77, 77, 0.5);
 }
 
 form input:focus, form textarea:focus {
     outline: none;
-    border-color: #4d4d4d;
+    border-color: #401B1B;
     box-shadow: 0px 0px 5px rgba(77, 77, 77, 0.5);
 }
 
 form button {
     padding: 10px 20px;
-    background-color: #4d4d4d;
-    color: white;
+    background-color: #5D1C34;
+    color: #EFE9E1;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #EFE9E1;
 }
 
 form button:hover { 
-    background-color: #333;
+    background-color: #A67D44;
 }
